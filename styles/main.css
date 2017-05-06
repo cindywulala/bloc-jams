@@ -78,6 +78,11 @@ body {
   max-width: 64rem;
 }
 
+.container .narrow {
+  max-width: 56rem;
+}
+
+/* media screens (640px) */
 @media (min-width: 640px) {
   html {font-size: 112%;}
 
@@ -95,6 +100,8 @@ body {
   .column.flow-opposite {float: right;}
 }
 
+
+/* media screens (1024px) */
 @media (min-width: 1024px) {
   html {font-size: 120%;}
 }
